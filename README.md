@@ -56,7 +56,7 @@ Para atualizar a "interface" no terminal basta chamar o método paper.refresh().
 ## Considerações
 * Porque usar o Interface.toTerminal(param) ao invés do System.out.println(param) diretamente: Um programa bem estruturado tem a seperação de funcionalidade de suas classes, onde cada uma tem sua função definida. A da Interface é printar e capturar tudo que seja necessário;
 * A matriz utilizada na classe app é int (tipo primitivo), enquanto a matriz da classe Board é String para que possa ser impresso o espaço vazio no terminal;
-** A matriz app não é String e utilizade diretamente na classe Board pois a ideia não é complicar, então o trabalho de formatação e representação gráfica já está previamente construida. A proposta é que possa estudar a utilização de matriz. Complicar com tipos não primitivos será a próxima etapa
+** A matriz app não é String e não é utilizada diretamente na classe Board pois a ideia não é complicar, então o trabalho de formatação e representação gráfica já está previamente construida. A proposta é que possa estudar a utilização de matriz. Complicar com tipos não primitivos será a próxima etapa
 * Apenas a classe app deverá ser alterada, evitando preocupações com desenvolvimento visual;
 * A classe Board é responsável por toda interação gráfica, sendo necessário apenas o método
 refresh() para a atualização da matriz e impressão da mesma no terminal;
