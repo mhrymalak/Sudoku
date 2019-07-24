@@ -7,9 +7,12 @@ Completar todos os quadros, sendo que, cada quadrado de 3x3 deve conter todos os
 não podendo os repetir nas subsequentes linhas ou colunas; 
 
 ## Lógica empregada
-Serão aceitos números de 0 a 9, sendo 0 impresso com quadrado vazio;
+Serão aceitos números de 0 a 9, sendo 0, impresso com quadrado vazio[1];
 A variável (matriz) board da classe app é a responsável pela visualização dos números no terminal;
 Para atualizar a "interface" no terminal basta chamar o método paper.refresh().
+
+[1]Quando uma matriz de inteiro é criada, ela é preenchida com 0, por definição. Isso é, todas as posição da matriz são atribuídas com o valor 0 por padrão.  
+
 
 ## Objetivos principais
  - Adicionar o método "Start()", qual deverá fazer o shuffle de números aleatórios dentro da matriz, obviamente respeitando as regras do jogo;
