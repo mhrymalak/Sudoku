@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Interface{
-    public static final Scanner in = new Scanner(System.in);
+    private static final Scanner in = new Scanner(System.in);
     public static int numero;
     public static int coluna;
     public static int linha;
