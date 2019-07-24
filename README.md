@@ -18,7 +18,7 @@ Para atualizar a "interface" no terminal basta chamar o método paper.refresh().
  - Atualizar a interface gráfica do terminal a cada jogada do usuário;
  - Criar o loop para que o usuário possa continuar jogando.
  
-##Objetivos secundários
+## Objetivos secundários
  **Alterando a classe interface**
  - Adicionar a possibilidade de pesquisar quantos quadros ainda faltam ser preenchidos;
  - Adicionar a opção "sair", qual deve fechar o jogo;
