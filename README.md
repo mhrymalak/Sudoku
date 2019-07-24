@@ -1,17 +1,17 @@
-#Jogo didático para estudo de Fundamentos da Programação
+# Jogo didático para estudo de Fundamentos da Programação
 A proposta deste é ajudar os estudantes de programação a desenvolver/treinar as habilidades de Fundamentos da programação.
 
-#Sudoku
-##Regras do jogo
+# Sudoku
+## Regras do jogo
 Completar todos os quadros, sendo que, cada quadrado de 3x3 deve conter todos os números de 1 a 9
 não podendo os repetir nas subsequentes linhas ou colunas; 
 
-##Lógica empregada
+## Lógica empregada
 Serão aceitos números de 0 a 9, sendo 0 impresso com quadrado vazio;
 A variável (matriz) board da classe app é a responsável pela visualização dos números no terminal;
 Para atualizar a "interface" no terminal basta chamar o método paper.refresh().
 
-##Objetivos principais
+## Objetivos principais
  - Adicionar o método "Start()", qual deverá fazer o shuffle de números aleatórios dentro da matriz, obviamente respeitando as regras do jogo;
  - Validar a entrada de dados do usuário;
  - Fazer a verificação se a entrada do usuário está dentro das regras do jogo;
@@ -31,8 +31,8 @@ Para atualizar a "interface" no terminal basta chamar o método paper.refresh().
  - Ao finalizar a partida o jogo deverá recomeçar com novos números aleatórios.
 
  
-#Material de apoio
-##Estrutura de classes
+# Material de apoio
+## Estrutura de classes
 1. Interface - Comunicação com o usuário
  * begin(): app.main();
  * toTerminal: System.out.println(param);
@@ -50,7 +50,7 @@ Para atualizar a "interface" no terminal basta chamar o método paper.refresh().
  * main(String args[]): main do programa, qual cria e estrutura o jogo;
  * main(): //TODO, onde todo o código dos objetivos deve ser desenvolvido.
 
-##Considerações
+## Considerações
 * Porque usar o Interface.toTerminal(param) ao invés do System.out.println(param) diretamente: Um programa bem estruturado tem a seperação de funcionalidade de suas classes, onde cada uma tem sua função definida. A da Interface é printar e capturar tudo que seja necessário;
 * A matriz utilizada na classe app é int (tipo primitivo), enquanto a matriz da classe Board é String para que possa ser impresso o espaço vazio no terminal;
 ** A matriz app não é String e utilizade diretamente na classe Board pois a ideia não é complicar, então o trabalho de formatação e representação gráfica já está previamente construida. A proposta é que possa estudar a utilização de matriz. Complicar com tipos não primitivos será a próxima etapa
